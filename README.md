@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# hardhat-template
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Installation
+```
+yarn
+```
 
-Try running some of the following tasks:
+## Compile
+```
+yarn hardhat compile
+```
+## Clean
+```
+yarn hardhat clean
+```
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+## Run Tests
+```
+yarn hardhat test
 ```
